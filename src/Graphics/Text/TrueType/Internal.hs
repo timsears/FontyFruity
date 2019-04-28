@@ -11,6 +11,7 @@ module Graphics.Text.TrueType.Internal
     , MaxpTable( .. )
     , FWord( .. )
     , Fixed( .. )
+    , FontCache( .. )
     ) where
 
 import Graphics.Text.TrueType.MaxpTable
@@ -18,4 +19,4 @@ import Graphics.Text.TrueType.HorizontalInfo
 import Graphics.Text.TrueType.FontType
 import Graphics.Text.TrueType.Header
 import Graphics.Text.TrueType.Types
-
+import Graphics.Text.TrueType.FontFolders
